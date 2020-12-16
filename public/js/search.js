@@ -35,7 +35,7 @@ document.writeln("");document.writeln("<li><input checked hidden type=\'radio\'n
 document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-google2\'value=\'https://www.google.com.hk/search?query=\'data-placeholder=\'谷歌搜索\'><label for=\'type-google2\'><span style=\'color:#003daa\'>谷歌</span></label></li>");
 
-document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-kuaidi\'value=\'https://translate.google.cn/?sl=en&tl=zh-CN&text=\'data-placeholder=\'输入翻译内容\'><label for=\'type-kuaidi\'><span style=\'color:#003daa\'>谷歌翻译</span></label></li>");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-kuaidi\'value=\'https://translate.google.com/#auto/zh-CN/\'data-placeholder=\'输入翻译内容\'><label for=\'type-kuaidi\'><span style=\'color:#003daa\'>谷歌翻译</span></label></li>");
 document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-panduoduo\'value=\'https://hub.docker.com/search?q=\'data-placeholder=\'搜索镜像\'><label for=\'type-panduoduo\'><span style=\'color:#003daa\'>Docker Hub</span></label></li>");
 document.writeln("");
