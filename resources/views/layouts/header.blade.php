@@ -6,13 +6,10 @@
     <title>{{ env('APP_NAME') }}</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.loli.net/css?family=Arimo:400,700,400italic' rel='stylesheet'>
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-	<link rel="stylesheet" href="css/search.css">
-	<script src="{{ mix('js/app.js') }}"></script>
-	<script src="https://cdn.bootcss.com/jquery/3.4.1/core.js"></script>
-    <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

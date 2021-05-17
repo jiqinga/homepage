@@ -42,8 +42,8 @@ class CategoriesTableSeeder extends Seeder
                 'id' => 3,
                 'parent_id' => 0,
                 'order' => 3,
-                'title' => '灵感采集',
-                'icon' => 'fa-lightbulb-o',
+                'title' => '电影',
+                'icon' => 'fa-film',
                 'created_at' => '2019-01-21 13:53:10',
                 'updated_at' => '2019-01-21 13:53:34',
             ),
@@ -52,7 +52,7 @@ class CategoriesTableSeeder extends Seeder
                 'id' => 4,
                 'parent_id' => 3,
                 'order' => 4,
-                'title' => '发现产品',
+                'title' => 'PC端',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-21 13:53:31',
                 'updated_at' => '2019-01-21 13:53:34',
@@ -62,7 +62,7 @@ class CategoriesTableSeeder extends Seeder
                 'id' => 5,
                 'parent_id' => 3,
                 'order' => 5,
-                'title' => '界面灵感',
+                'title' => '移动端',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-21 13:53:49',
                 'updated_at' => '2019-01-21 13:55:42',
@@ -70,9 +70,9 @@ class CategoriesTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 6,
-                'parent_id' => 3,
+                'parent_id' => 0,
                 'order' => 6,
-                'title' => '网页灵感',
+                'title' => '壁纸',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-21 13:54:00',
                 'updated_at' => '2019-01-21 13:55:42',
@@ -100,9 +100,9 @@ class CategoriesTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'parent_id' => 7,
+                'parent_id' => 0,
                 'order' => 9,
-                'title' => 'LOGO设计',
+                'title' => '美化',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-21 13:55:11',
                 'updated_at' => '2019-01-21 13:55:42',
@@ -110,9 +110,9 @@ class CategoriesTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 10,
-                'parent_id' => 7,
+                'parent_id' => 0,
                 'order' => 10,
-                'title' => '平面素材',
+                'title' => '前端',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-21 13:55:25',
                 'updated_at' => '2019-01-21 13:55:42',
@@ -170,9 +170,9 @@ class CategoriesTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 16,
-                'parent_id' => 7,
+                'parent_id' => 0,
                 'order' => 16,
-                'title' => 'PPT资源',
+                'title' => '网盘',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-22 01:01:33',
                 'updated_at' => '2019-01-22 01:07:04',
@@ -190,9 +190,9 @@ class CategoriesTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 18,
-                'parent_id' => 17,
+                'parent_id' => 0,
                 'order' => 18,
-                'title' => '图形创意',
+                'title' => '游戏',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-22 01:02:14',
                 'updated_at' => '2019-01-22 01:07:04',
@@ -200,9 +200,9 @@ class CategoriesTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 19,
-                'parent_id' => 17,
+                'parent_id' => 0,
                 'order' => 19,
-                'title' => '界面设计',
+                'title' => 'Linux博客',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-22 01:02:24',
                 'updated_at' => '2019-01-22 01:07:04',

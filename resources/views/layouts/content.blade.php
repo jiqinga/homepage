@@ -1,15 +1,3 @@
-
-
-<script type="text/javascript" src="/js/search.js"></script>
-
-<script type="text/javascript" charset="utf-8">
-	      $(function() {
-	          $("img").lazyload({ 
-			  placeholder : "img/loading.png",
-	                 effect: "fadeIn"
-	           });  
-	      });
-	</script>
 @foreach($categories as $category)
 
     @if(count($category->sites) != 0)
@@ -27,10 +15,7 @@
                         <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('$site->url', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="$site->url">
                             <div class="xe-comment-entry">
                                 <a class="xe-user-img">
-                                	
-                                   <img class="img-cricle" background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%); data-original="/uploads/$site->thumb" width="40">
-                                    
-                                   
+                                    <img src="/uploads/$site->thumb" class="img-circle" width="40">
                                 </a>
                                 <div class="xe-comment">
                                     <a href="#" class="xe-user-name overflowClip_1">
