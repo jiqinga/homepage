@@ -130,9 +130,9 @@ class CategoriesTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 12,
-                'parent_id' => 7,
+                'parent_id' => 3,
                 'order' => 12,
-                'title' => 'Sketch资源',
+                'title' => '动漫',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-22 01:00:51',
                 'updated_at' => '2019-01-22 01:07:04',
@@ -150,9 +150,9 @@ class CategoriesTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 14,
-                'parent_id' => 7,
+                'parent_id' => 0,
                 'order' => 14,
-                'title' => 'Mockup',
+                'title' => '转换工具',
                 'icon' => 'fa-star-o',
                 'created_at' => '2019-01-22 01:01:12',
                 'updated_at' => '2019-01-22 01:07:04',
@@ -312,7 +312,7 @@ class CategoriesTableSeeder extends Seeder
                 'id' => 30,
                 'parent_id' => 0,
                 'order' => 30,
-                'title' => 'UED团队',
+                'title' => '软件',
                 'icon' => 'fa-user',
                 'created_at' => '2019-01-22 01:05:39',
                 'updated_at' => '2019-01-22 01:07:04',
