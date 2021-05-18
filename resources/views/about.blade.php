@@ -4,18 +4,6 @@
 @include('layouts.header')
 
 <body class="page-body boxed-container">
-    <nav class="navbar horizontal-menu navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="navbar-brand">
-                <a href="/" class="logo">
-                    <img src="{{ asset('img/logo_dark@2x.png') }}" width="100%" alt="" class="hidden-xs">
-                    <img src="{{ asset('img/logo@2x.png') }}" width="100%" alt="" class="visible-xs">
-                </a>
-            </div>
-            <div class="navbar-mobile-clear"></div>
-            <a href="https://github.com/hui-ho/WebStack-Laravel" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-        </div>
-    </nav>
     <div class="page-container">
         <!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
         <div class="main-content" style="">

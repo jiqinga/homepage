@@ -21,7 +21,7 @@ class AdminConfigTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'admin_name',
-                'value' => 'hui-ho',
+                'value' => '寂情啊',
                 'description' => '站长姓名',
                 'created_at' => '2019-08-23 06:04:34',
                 'updated_at' => '2019-08-23 06:05:08',
@@ -30,7 +30,7 @@ class AdminConfigTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'name' => 'admin_email',
-                'value' => 'hui-ho@outlook.com',
+                'value' => 'jiqinga@gmail.com',
                 'description' => '站长邮箱',
                 'created_at' => '2019-08-23 06:05:00',
                 'updated_at' => '2019-08-23 06:05:00',
