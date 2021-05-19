@@ -112,7 +112,7 @@ class SitesTableSeeder extends Seeder
                 'title' => 'GitHub',
                 'thumb' => 'images/github.png',
                 'describe' => '全球最大的代码托管平台',
-                'url' => 'https://www.producthunt.com/',
+                'url' => 'https://www.github.com/',
                 'created_at' => '2019-01-22 01:17:50',
                 'updated_at' => '2019-01-22 01:17:50',
             ),
